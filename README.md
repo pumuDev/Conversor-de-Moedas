@@ -9,7 +9,7 @@ Um conversor de moedas utilizando Javascript para fazer conexão com a API da Ex
 ## Funcionalidades
 
 - Suporta BRL, USD, UAH, JPY e outras moedas.
-- Conversão de moeda do dia atual. (API)
+- Conversão de moeda do dia atual. (APIs)
 
 
 
