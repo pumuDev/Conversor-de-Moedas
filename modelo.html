@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link rel="stylesheet" href="estilo.css"/>
+</head>
+<body>
+    <header>
+        <h1>Conversor de Moedas em Tempo  Real</h1>
+    </header>
+    <section>
+        <div>
+            <p>Valor: 
+                <input type="number" name="valor" id="valor" placeholder="Insira o valor aqui">
+            </p>
+            <p>Moeda de Origem:
+                <select id="moedaOrigem">
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="UAH">Hryvnia Ucraniano (UAH)</option>
+                    <option value="JPY">Iene Japonês (JPY)</option>
+                    <option value="KZT">Tenge Cazaquistanês (KZT)</option>
+                    <!--- Se necessário adicionar outras moedas aqui -->
+                </select>
+            </p>
+            <p>Moeda de Destino:
+                <select id="moedaDestino">
+                    <option value="USD">Dólar Americano (USD)</option>
+                    <option value="BRL">Real Brasileiro (BRL)</option>
+                    <option value="UAH">Hryvnia Ucraniano (UAH)</option>
+                    <option value="JPY">Iene Japonês (JPY)</option>
+                    <option value="KZT">Tenge Cazaquistanês (KZT)</option>
+                    <!--- Se necessário adicionar outras moedas aqui -->
+                </select>
+            </p>
+            <p>
+                <input type="button" value="Converter" onclick="converterMoeda()">
+            </p>
+        </div>
+        <div id="resultado">
+            Aguardando conversão...
+            <!-- Resultado da conversão vai aparecer aqui -->
+        </div>
+
+    </section>  
+    <footer>
+        <p>&copy; Rafael Almeida 2024</p>
+    </footer>
+    <script src="script.js"></script>  
+</body>
+</html>

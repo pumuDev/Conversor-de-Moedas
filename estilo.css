@@ -1,0 +1,67 @@
+body {
+    background: rgb(107, 142, 236);
+    font: normal 15pt Arial;
+
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
+}
+
+#valor, #moedaOrigem, #moedaDestino{
+    width: 50%;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    margin-bottom: 5px;
+}
+
+#resultado{
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 2px solid #4CAF50;
+    border-radius: 10px;
+    font-size: 20pt;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input[type="button"] {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition-duration: 0.4s;
+}
+
+input[type="button"]:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+}
